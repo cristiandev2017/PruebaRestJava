@@ -29,6 +29,10 @@ public class Widget {
         this.version = version;
     }
 
+    public Widget(Long id){
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }
